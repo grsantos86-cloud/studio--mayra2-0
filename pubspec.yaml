@@ -1,0 +1,28 @@
+name: studio_mayra
+description: "Studio Mayra 2.0 - edição/geração de vídeo vertical com vozes (10 perfis)"
+publish_to: "none"
+version: 2.0.0+200
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  file_picker: ^8.0.5
+  video_player: ^2.9.2
+  flutter_tts: ^3.8.5
+  ffmpeg_kit_flutter_min_gpl: ^6.0.3
+  path_provider: ^2.1.4
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/placeholder_overlay.png
